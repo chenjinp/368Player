@@ -353,7 +353,7 @@ const handleBeforePlay = (next: any) => {
         ElMessage(
         {
           type:"error",
-          message:'该歌曲歌词无资源'
+          message:'该歌曲无资源'
         }
         )
         return
